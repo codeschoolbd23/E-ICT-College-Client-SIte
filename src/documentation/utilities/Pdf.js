@@ -1,130 +1,176 @@
-import React from 'react';
-import { ExternalLink } from 'react-external-link';
-import Head from '../shared/navbar/Head';
-import Footer from '../shared/footer/Footer';
-import { FaDownload } from 'react-icons/fa';
+import React from "react";
+import { ExternalLink } from "react-external-link";
+import Head from "../shared/navbar/Head";
+import Footer from "../shared/footer/Footer";
+import { FaDownload } from "react-icons/fa";
 
 const Pdf = () => {
   const externalDownload = [
     {
       id: 1,
-      bid: "1-5oDud4UWiCI9p5xKDumehENeE1fP9Ot",
+      href1: "1-5oDud4UWiCI9p5xKDumehENeE1fP9Ot",
+      href2: "1-5oDud4UWiCI9p5xKDumehENeE1fP9Ot",
       book_name: "বাংলা সাহিত্য",
-      imgLink: "",
-      version: "বাংলা ভার্সন",
     },
     {
       id: 2,
-      bid: "1XYqYk0aDh61xS9e2Cv9aZmCfoWJISSpm",
+      href1: "1XYqYk0aDh61xS9e2Cv9aZmCfoWJISSpm",
+      href2: "1XYqYk0aDh61xS9e2Cv9aZmCfoWJISSpm",
       book_name: "বাংলা-সহ পাঠ",
-      imgLink: "",
-      version: "বাংলা ভার্সন",
     },
     {
       id: 3,
-      bid: "1xBwsYefRZgBXVCDBaHYn9TGiM3wMdcu8",
-      book_name: "বাংলা ব্যাকরণ",
-      imgLink: "",
-      version: "বাংলা ভার্সন",
+      href1: "1xBwsYefRZgBXVCDBaHYn9TGiM3wMdcu8",
+      href2: "1xBwsYefRZgBXVCDBaHYn9TGiM3wMdcu8",
+      book_name: "বাংলা ভাষার ব্যাকরণ",
     },
     {
       id: 4,
-      bid: "1CCgj3RnqlSC88h-K2-vErKX1PzfFn3uK",
+      href1: "1CCgj3RnqlSC88h-K2-vErKX1PzfFn3uK",
+      href2: "1R0_G_42V155BacroNKMFG7Y22sLtM0E3",
       book_name: "গণিত",
-      imgLink: "",
-      version: "বাংলা ভার্সন",
     },
     {
       id: 5,
-      bid: "1R0_G_42V155BacroNKMFG7Y22sLtM0E3",
-      book_name: "Mathematics",
-      imgLink: "",
-      version: "ইংরেজি ভার্সন",
+      href1: "1sfFclvEwd76WzgZzcvjMXxEp14cC-tIC",
+      href2: "1jweeX1yHktGKzYbLXRlPJDf2dVNOM_Cj",
+      book_name: "উচ্চতর গণিত",
     },
     {
       id: 6,
-      bid: "1sfFclvEwd76WzgZzcvjMXxEp14cC-tIC",
-      book_name: "উচ্চতর গণিত",
-      imgLink: "",
-      version: "বাংলা ভার্সন",
+      href1: "1HjjDObrRkP-5JNClyRCggDaYXhyfNYSy",
+      href2: "1HjjDObrRkP-5JNClyRCggDaYXhyfNYSy",
+      book_name: "English for Today",
     },
     {
       id: 7,
-      bid: "1jweeX1yHktGKzYbLXRlPJDf2dVNOM_Cj",
-      book_name: "Higher Mathematics",
-      imgLink: "",
-      version: "ইংরেজি ভার্সন",
-    },
-    {
-      id: 8,
-      bid: "1HjjDObrRkP-5JNClyRCggDaYXhyfNYSy",
-      book_name: "ইংরেজি ১ম পত্র",
-      imgLink: "",
-      version: "বাংলা ভার্সন",
-    },
-    {
-      id: 9,
-      bid: "1HjjDObrRkP-5JNClyRCggDaYXhyfNYSy",
-      book_name: "English First Paper",
-      imgLink: "",
-      version: "ইংরেজি ভার্সন",
-    },
-    {
-      id: 10,
-      bid: "1ZQ-dSHrAaXG5YZSSeC6aptOuuj0eD-zR",
+      href1: "1ZQ-dSHrAaXG5YZSSeC6aptOuuj0eD-zR",
+      href2: "13QVwhG3LRPvaibBjDzcU2OhKZnSB4qK3",
       book_name: "বিজ্ঞান",
-      imgLink: "",
-      version: "বাংলা ভার্সন",
-    },
-    {
-      id: 11,
-      bid: "13QVwhG3LRPvaibBjDzcU2OhKZnSB4qK3",
-      book_name: "Science",
-      imgLink: "",
-      version: "ইংরেজি ভার্সন",
     },
   ];
-    return (
-      <div>
-        <Head></Head>
-        <div className="p-10 min-h-96">
-          <h1 className="w-full text-center text-shadow-lg/50 text-2xl">
-            নবম শ্রেণীর বোর্ডবই-২০২৫
+  return (
+    <div>
+      <Head></Head>
+      <div className="w-full py-5 lg:p-5 min-h-96 text-shadow-lg/20">
+        <h1 className="w-full text-center text-shadow-lg/50 text-2xl">
+          নবম শ্রেণীর বোর্ডবই-২০২৫
+        </h1>
+        <p className="text-center">সরকার কর্তৃক বিনামূল্যে বিতরণের জন্য। </p>
+        <h1 className="text-center block lg:hidden bg-yellow-200">
+          বাংলা ভার্সন
+        </h1>
+        <div className="lg:flex justify-center w-full lg:gap-1 lg:w-4/5 mx-auto">
+          <div className="my-1 flex flex-col">
+            <div className="grid grid-cols-2 lg:grid-cols-3 mx-2 bg-primary text-white">
+              <div className="flex border">
+                <p className="text-center w-1/5 p-1 border">নং</p>
+                <p className="w-full flex p-1 justify-center">
+                  পাঠ্যপুস্তকের নাম
+                </p>
+              </div>
+              <div className="border">
+                <p className="w-full p-1 flex justify-center">বাংলা ভার্সন</p>
+              </div>
+              <div className="hidden lg:block border">
+                <p className="w-full p-1 flex justify-center">ইংরেজি ভার্সন</p>
+              </div>
+            </div>
+            {externalDownload.map((bd) => (
+              <div className="grid grid-cols-2 lg:grid-cols-3 px-2" key={bd.id}>
+                <div className="flex border">
+                  <p className="text-center w-1/5 border">{bd.id}</p>
+                  <p className="w-full">{bd.book_name}</p>
+                </div>
+                <div className="grid grid-cols-2 border">
+                  <p className="w-full p-1">
+                    <ExternalLink
+                      href={`https://drive.google.com/uc?export=download&id=${bd.href1}`}
+                      className="btn bg-red-600 text-yellow-100 flex text-sm"
+                    >
+                      <FaDownload />
+                      Download
+                    </ExternalLink>
+                  </p>
+                  <p className="w-full p-1">
+                    <ExternalLink
+                      href={`https://drive.google.com/file/d/${bd.href2}/view`}
+                      className="btn bg-primary text-yellow-100 text-sm w-full"
+                    >
+                      View
+                    </ExternalLink>
+                  </p>
+                </div>
+                <div className="hidden lg:grid lg:grid-cols-2 border">
+                  <p className="w-full p-1">
+                    <ExternalLink
+                      href={`https://drive.google.com/uc?export=download&id=${bd.href1}`}
+                      className="btn bg-red-600 text-yellow-100 flex text-sm"
+                    >
+                      <FaDownload />
+                      Download
+                    </ExternalLink>
+                  </p>
+                  <p className="w-full p-1">
+                    <ExternalLink
+                      href={`https://drive.google.com/file/d/${bd.href2}/view`}
+                      className="btn bg-primary text-yellow-100 text-sm w-full"
+                    >
+                      View
+                    </ExternalLink>
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <h1 className="text-center block lg:hidden bg-yellow-200">
+            ইংরেজি ভার্সন
           </h1>
-          <p>সরকার কর্তৃক বিনামূল্যে বিতরণের জন্য। </p>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
-            {externalDownload.map((dld) => (
-              <ul
-                key={dld.id}
-                className="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:p-5 border border-dotted border-green-700 my-2"
-              >
-                <li className="text-blue-800 text-shadow-lg/10 text-xl flex flex-col p-3">
-                  {dld.book_name}
-                  <small className="text-yellow-700">({dld.version})</small>
-                </li>
-                <li className="flex flex-col-reverse lg:flex-row">
-                  <ExternalLink
-                    href={`https://drive.google.com/uc?export=download&id=${dld?.bid}`}
-                    className="btn btn-primary p-3 m-1 text-white text-lg"
-                  >
-                    <FaDownload />
-                    Download
-                  </ExternalLink>
-
-                  <ExternalLink
-                    href={`https://drive.google.com/file/d/${dld?.bid}/view`}
-                    className="btn btn-primary p-3 m-1 text-white text-lg"
-                  >
-                    View
-                  </ExternalLink>
-                </li>
-              </ul>
+          <div className="my-1 block lg:hidden">
+            <div className="grid grid-cols-2 mx-2 bg-primary text-white">
+              <div className="flex border">
+                <p className="text-center w-1/5 border p-1">নং</p>
+                <p className="w-full p-1">পাঠ্যপুস্তকের নাম</p>
+              </div>
+              <div className="border">
+                <p className="w-full p-1 text-cenetr flex justify-center">
+                  ইংরেজি ভার্সন
+                </p>
+              </div>
+            </div>
+            {externalDownload.map((bd) => (
+              <div className="grid grid-cols-2 px-2" key={bd.id}>
+                <div className="flex border">
+                  <p className="text-center w-1/5 border">{bd.id}</p>
+                  <p className="w-full">{bd.book_name}</p>
+                </div>
+                <div className="grid grid-cols-2 border">
+                  <p className="w-full p-1">
+                    <ExternalLink
+                      href={`https://drive.google.com/uc?export=download&id=${bd.href1}`}
+                      className="btn bg-red-600 text-yellow-100 flex text-sm"
+                    >
+                      <FaDownload />
+                      Download
+                    </ExternalLink>
+                  </p>
+                  <p className="w-full p-1">
+                    <ExternalLink
+                      href={`https://drive.google.com/file/d/${bd.href2}/view`}
+                      className="btn bg-primary text-yellow-100 text-sm w-full"
+                    >
+                      View
+                    </ExternalLink>
+                  </p>
+                </div>
+              </div>
             ))}
           </div>
         </div>
-        <Footer></Footer>
       </div>
-    );
+      <Footer></Footer>
+    </div>
+  );
 };
 
 export default Pdf;
