@@ -44,9 +44,45 @@ const Pdf = () => {
     },
     {
       id: 7,
+      href1: "1Y503M0UXrE_uBDw0qk6Q5UAtKoGxnJRF",
+      href2: "1Y503M0UXrE_uBDw0qk6Q5UAtKoGxnJRF",
+      book_name: "English Grammar",
+    },
+    {
+      id: 8,
+      href1: "1C26CUi-p1rb03z-1gfGNXWj1tfmG-gtX",
+      href2: "15T3wcobriWXSJ2afuWGvht8rs8J47mkD",
+      book_name: "তথ্য ও যোগাযোগ প্রযুক্তি",
+    },
+    {
+      id: 9,
       href1: "1ZQ-dSHrAaXG5YZSSeC6aptOuuj0eD-zR",
       href2: "13QVwhG3LRPvaibBjDzcU2OhKZnSB4qK3",
       book_name: "বিজ্ঞান",
+    },
+    {
+      id: 10,
+      href1: "1dbIZB4lvXUhKMr4imAZ9txdoLpuLRlUR",
+      href2: "1e2k8lLc7ms2t_HThApg-NV4rDYnpCrx_",
+      book_name: "পদার্থবিজ্ঞান",
+    },
+    {
+      id: 11,
+      href1: "11LdZSm4FtYfp7NfN9CiJYeglGsjPFUiN",
+      href2: "1fC5eLIP-yJxYePw2lGRmrLf5bTclAhJg",
+      book_name: "রসায়ন",
+    },
+    {
+      id: 12,
+      href1: "1l2ofa1KTetaRIAzBgiHDYN9eJaPlUHLK",
+      href2: "12F7W8aVcElyMx2mLU7YYLhQeQMD4aJXg",
+      book_name: "জীববিজ্ঞান",
+    },
+    {
+      id: 13,
+      href1: "1l2gb1AuRIJ8pFDW8va5gRxNTbSIHhr3j",
+      href2: "1cjDJOX44VImuWwFS-cyxBtfZdJ2UB7n1",
+      book_name: "বাংলাদেশ ও বিশ্বপরিচয়",
     },
   ];
   return (
