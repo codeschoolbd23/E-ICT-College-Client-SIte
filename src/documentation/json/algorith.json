@@ -1,0 +1,44 @@
+{
+  "name": "Algorithm",
+  "obj":["এই পাঠ শেষে যা যা শিখতে পারবে-",
+"১। অ্যালগোরিদম ও ফ্লোচার্ট ব্যাখ্যা করতে পারবে।",
+"২। অ্যালগোরিদম তৈরির শর্ত সমূহ বর্ণনা করতে পারবে।",
+"৩। অ্যালগোরিদম ও ফ্লোচার্ট তৈরির সুবিধাসমূহ বর্ণনা করতে পারবে।",
+"৪। ফ্লোচার্ট তৈরির নিয়মসমূহ বর্ণনা করতে পারবে।",
+"৫। ফ্লোচার্টে ব্যবহৃত প্রতীক সমূহের ব্যবহার বর্ণনা করতে পারবে।"],
+  "description": "An algorithm is a sequence of finite number of logical steps to solve a particular problem or algorithm is an ordered set of unambiguous logical steps that produces a result and terminates in a finite time.",
+  "structure": [
+    {
+      "topic": "",
+      "step1": "start",
+      "step2": "Read",
+      "step3": "Processing",
+      "step4": "result",
+      "step5": "end"
+    },
+    {
+      "topic": "",
+      "step1": "start",
+      "step2": "Read",
+      "step3": "Processing",
+      "step4": "result",
+      "step5": "end"
+    },
+    {
+      "topic": "",
+      "step1": "start",
+      "step2": "Read",
+      "step3": "Processing",
+      "step4": "result",
+      "step5": "end"
+    },
+    {
+      "topic": "",
+      "step1": "start",
+      "step2": "Read",
+      "step3": "Processing",
+      "step4": "result",
+      "step5": "end"
+    }
+  ]
+}
